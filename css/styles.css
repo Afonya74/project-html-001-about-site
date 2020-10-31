@@ -1,3 +1,42 @@
 div.intro h3 {
     text-align: left;
 }
+
+#footer {
+    margin-top: auto;
+    margin-left: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+#leftbox {
+    float: left;
+    background: Red;
+    width: 33%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#middlebox {
+    float: left;
+    background: Green;
+    width: 33%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightbox {
+    float: right;
+    background: blue;
+    width: 34%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
