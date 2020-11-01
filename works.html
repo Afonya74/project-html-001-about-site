@@ -7,13 +7,21 @@
     <title>Munkái</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- scripts -->
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/util.js"></script>
+
 </head>
 
-<body>
+<body id="top" class="background">
     <header id="header">
         <a class="logo" href="./works.html">
             <div class="intro">
-                <h3>Munkái</h3>
+                <h3>Munkáim</h3>
             </div>
         </a>
         <nav>
@@ -25,31 +33,56 @@
     <nav id="menu">
         <ul class="links">
             <li>
-                <a href="./index.html">Home</a>
+                <a href="./index.html">Főoldal</a>
             </li>
             <li>
-                <a href="./works.html">Munkái</a>
+                <a href="./works.html">Munkáim</a>
             </li>
             <li>
                 <a href="./gallery.html">Galéria</a>
             </li>
             <li>
-                <a href="./about.html">Rólunk</a>
+                <a href="./about.html">Rólam</a>
             </li>
         </ul>
     </nav>
 
-    <!-- scripts -->
-    <script src="./assets/js/breakpoints.min.js"></script>
-    <script src="./assets/js/browser.min.js"></script>
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/util.js"></script>
-    <main></main>
-    <section></section>
+    <main class="mainbody">
 
+        <section style="overflow: auto;">
+            <div>
+                <h3>Figaro házassága</h3>
+                <div><img class="worksimg" src="/assets/images/figaro.jpg" alt="Figaro házassága"></div>
+                <div>
+                    <p>A vígopera Beaumarchais francia színműíró darabja alapján készült. <br> Sokak szerint e politikailag felforgató mű volt a francia forradalom nyitánya.</p>
+                </div>
+            </div>
+
+        </section>
+        <br>
+        <section style="overflow: auto;">
+            <div>
+                <h3>C-dúr zongoraverseny</h3>
+                <div><img class="worksimg" src="/assets/images/zongoraverseny.jpg" alt="C-dúr zongoraverseny"></div>
+                <div>
+                    <p>Mozart népszerűségének csúcsán komponálta a versenyművet. <br> Művészetének hallatlan kifinomultsága mutatkozik meg a műben.</p>
+                </div>
+            </div>
+        </section>
+        <section style="overflow: auto;">
+            <div>
+                <h3>Kis éji zene</h3>
+                <div><img class="worksimg" src="/assets/images/nachtmusik.jpg" alt="Kis éji zene"></div>
+                <div>
+                    <p>Szerenádjai közül méltán ez a legnépszerűbb. <br> A mű nem más, mint gondtalanul vidám zenei csevegés.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer id="footer">
-        <button type="submit" value="Submit" formaction="./works.html">Ugrás az oldal tetejére</button>
+        <a href="#top">
+            <button style="margin-left: 15px;" class="btn">Ugrás az oldal tetejére</button>
+        </a>
     </footer>
 </body>
 

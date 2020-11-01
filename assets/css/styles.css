@@ -10,7 +10,16 @@ section.intro p {
     color: rgb(23, 1, 119);
 }
 
-#background {
+.mainbody p {
+    margin: 0 0 0 0;
+}
+
+.mainbody h3 {
+    margin: 1.5rem 0 0.5rem 0;
+    margin-left: 10px;
+}
+
+.background {
     background-image: url('../images/kotta.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +28,7 @@ section.intro p {
 
 #leftbox {
     float: left;
-    background: Red;
+    background: rgb(85, 153, 243);
     width: 33%;
     height: 100px;
     display: flex;
@@ -29,7 +38,7 @@ section.intro p {
 
 #middlebox {
     float: left;
-    background: Green;
+    background: rgb(170, 157, 80);
     width: 33%;
     height: 100px;
     display: flex;
@@ -39,10 +48,56 @@ section.intro p {
 
 #rightbox {
     float: right;
-    background: blue;
+    background: Red;
     width: 34%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.worksimg {
+    float: left;
+    width: auto;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aboutimg {
+    float: left;
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.left {
+    float: left;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+    width: 30.33%;
+}
+
+.main {
+    float: left;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+    width: 30.33%;
+}
+
+.right {
+    float: left;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+    width: 30.33%;
+}
+
+@media screen and (max-width:980px) {
+    .left,
+    .main,
+    .right {
+        width: 100%;
+    }
 }

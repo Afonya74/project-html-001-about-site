@@ -3347,7 +3347,7 @@ body.is-preload #banner:before {
     padding: 1rem 0 1rem 0;
     margin-top: auto;
     margin-left: auto;
-    position: absolute;
+    position: -webkit-sticky;
     bottom: 0;
     width: 100%;
     height: auto;

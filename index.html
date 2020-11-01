@@ -8,9 +8,17 @@
 
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- scripts -->
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/util.js"></script>
+
+
 </head>>
 
-<body id="background">
+<body id="top" class="background">
 
     <header id="header">
         <a class="logo" href="./index.html">
@@ -27,35 +35,28 @@
     <nav id="menu">
         <ul class="links">
             <li>
-                <a href="./index.html">Home</a>
+                <a href="./index.html">Főoldal</a>
             </li>
             <li>
-                <a href="./works.html">Munkái</a>
+                <a href="./works.html">Munkáim</a>
             </li>
             <li>
                 <a href="./gallery.html">Galéria</a>
             </li>
             <li>
-                <a href="./about.html">Rólunk</a>
+                <a href="./about.html">Rólam</a>
             </li>
         </ul>
     </nav>
 
-    <!-- scripts -->
-    <script src="./assets/js/breakpoints.min.js"></script>
-    <script src="./assets/js/browser.min.js"></script>
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/util.js"></script>
-
 
     <main>
         <section class="intro">
-            <p>Más gyermekek még olvasni sem tudnak, amikor Mozart, a csodagyerek már muzsikált és komponált. Hatalmas életművet hozott létre. </p>
+            <p>Más gyermekek még olvasni sem tudnak, amikor én már muzsikáltam és komponáltam. Csodagyerekként is emlegettek, pedig én csak nagyon szerettem a zenét. </p>
         </section>
         <section>
-            <img src="./assets/images/painting-Wolfgang-Amadeus-Mozart-Johann-Nepomuk-della-1780.jpg" alt="Mozart" width="auto" height="400">
             <img src="./assets/images/Wolfgang-amadeus-mozart_2.jpg" alt="Child Mozart" width="auto" height="400">
+            <img src="./assets/images/painting-Wolfgang-Amadeus-Mozart-Johann-Nepomuk-della-1780.jpg" alt="Mozart" width="auto" height="400">
         </section>
 
         <div style="width: 100%;">
@@ -69,11 +70,14 @@
                 Mesteri
             </div>
         </div>
-
     </main>
 
+
     <footer id="footer">
-        <button type="submit" value="Submit" formaction="./index.html">Ugrás az oldal tetejére</button>
+        <a href="#top">
+            <button style="margin-left: 15px;" class="btn">Ugrás az oldal tetejére</button>
+        </a>
+
     </footer>
 
 </body>
