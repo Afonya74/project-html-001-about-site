@@ -6,27 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>>
 
-<body>
-    <header>
-        <div class="intro">
-            <h3>W. A. Mozart oldala</h3>
-        </div>
+<body id="background">
+
+    <header id="header">
+        <a class="logo" href="./index.html">
+            <div class="intro">
+                <h3>W. A. Mozart oldala</h3>
+            </div>
+        </a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+
     </header>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./works.html">Munkái</a>
-        <a href="./gallery.html">Galéria</a>
-        <a href="./about.html">Rólunk</a>
+
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./works.html">Munkái</a>
+            </li>
+            <li>
+                <a href="./gallery.html">Galéria</a>
+            </li>
+            <li>
+                <a href="./about.html">Rólunk</a>
+            </li>
+        </ul>
     </nav>
+
+    <!-- scripts -->
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/util.js"></script>
+
+
     <main>
-        <section>
+        <section class="intro">
             <p>Más gyermekek még olvasni sem tudnak, amikor Mozart, a csodagyerek már muzsikált és komponált. Hatalmas életművet hozott létre. </p>
         </section>
         <section>
-            <img src="./images/painting-Wolfgang-Amadeus-Mozart-Johann-Nepomuk-della-1780.jpg" alt="Mozart" width="262" height="auto">
+            <img src="./assets/images/painting-Wolfgang-Amadeus-Mozart-Johann-Nepomuk-della-1780.jpg" alt="Mozart" width="auto" height="400">
+            <img src="./assets/images/Wolfgang-amadeus-mozart_2.jpg" alt="Child Mozart" width="auto" height="400">
         </section>
 
         <div style="width: 100%;">
