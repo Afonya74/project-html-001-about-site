@@ -26,6 +26,10 @@ section.intro p {
     background-size: cover;
 }
 
+.background-noimage {
+    background-color: rgb(184, 159, 159);
+}
+
 #leftbox {
     float: left;
     background: rgb(85, 153, 243);
